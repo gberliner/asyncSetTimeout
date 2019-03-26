@@ -1,0 +1,8 @@
+{
+    "presets": ["@babel/preset-typescript",
+        ["@babel/preset-env",{
+            "targets": ">2% and not dead and not IE 11",
+            "modules": "umd"
+        }]
+    ]
+}
